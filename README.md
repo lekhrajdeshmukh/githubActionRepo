@@ -44,3 +44,11 @@
         - git branch
         - Above command will git list of branches available under the repo and the branch which is in active state it will get displayed with "*"
         - Example: "* main" (mainly highlighted in green color)
+    -`Merge changes to another branch`
+        - You can merge changes of one branch to another branch
+        - Let's say you have a two branch named "feature1", "feature2
+        - Now you made changes under branch "feature1"  and commited the changes under feature1
+        - Now you switched to branch "feature2" and want to have a changes from branch "feature1"
+        - `git merge feature1`
+        - Above command will merge all the changes of feature1 to feature2
+
