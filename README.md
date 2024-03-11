@@ -32,4 +32,15 @@
         - It is common practice to use all the alphabets in lowercase
         - If there are multiple words then it's very common to separate multiple words with slashes("/")
         - Example: branch names would be "feature/blog", "dev/bugfix" etc
-    
+    - `Delete the branch`    
+        - To delete the branch, first you have to move the other branch than the branch which you want to delete.
+        - Example:
+            - Let's say you are having two branch "main", "feature/jira-1234"
+            - Now if you want to delete branch named "feature/jira-1234" then first you need to switch to main branch and from there you can trigger the command to delete the feature branch
+            - git checkout main
+            - git branch -D feature/jira-1234
+            - Above command will delete the feature branch
+    -`Check current active branch`
+        - git branch
+        - Above command will git list of branches available under the repo and the branch which is in active state it will get displayed with "*"
+        - Example: "* main" (mainly highlighted in green color)
