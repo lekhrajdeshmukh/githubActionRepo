@@ -53,3 +53,18 @@
             - `git merge feature1`
         - Above command will merge all the changes of feature1 to feature2
 
+**GitHub Actions - Key Elements**
+    -`Workflows:`
+        - Attached to a github repository
+        - Contains one or more Jobs
+        - Triggered upon events defined for the repo. This events can be triggered manual or in automated way.
+    -`Jobs:`
+        - Define a runner(execution environment). This runner can be weither the pre-defined runner defined by the GitHub or can be your own runner hosted on your server.
+        - Contain one or more Steps which will get executed under the runner
+        - Run in parallel(default) or sequential
+        - Can be conditional
+    -`Steps:`
+        - Execute a shell script or an Action(It is predefined task)
+        - Can use custom or third party actions
+        - Steps are executed in order
+
