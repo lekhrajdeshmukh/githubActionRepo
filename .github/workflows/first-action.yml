@@ -10,6 +10,6 @@ jobs:
         run: echo "Done - bye!"
       - name: Run multiline commands
         run: |
-          echo "current date is ${date}"
-          echo "I am : ${whoami}"
+          echo "current date is $(date)"
+          echo "I am : $(whoami)"
   
