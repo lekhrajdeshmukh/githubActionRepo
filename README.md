@@ -75,3 +75,5 @@
         - Example: Needs: <Job-name-on-which-it-depends>
     - If your job is depends on multiple jobs then you can also define the job names as array
         - Example: Needs [<jobName1>,<JobName2>]
+    - If you want your workflow to be triggered by automated action and also by manual trigger then you can below on events:
+        - Example: on: [push, workflow_dispatch]
