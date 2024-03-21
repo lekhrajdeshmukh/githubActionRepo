@@ -71,4 +71,7 @@
 **Multiple Jobs under same workflow**
     
     - This is very important. Every job gets its own runner, it's own virtual machine that's totally isolated from other machines and jobs.
-    
+    - If you want that one job should be depend on another job then you need add the the keyword "Needs"
+        - Example: Needs: <Job-name-on-which-it-depends>
+    - If your job is depends on multiple jobs then you can also define the job names as array
+        - Example: Needs [<jobName1>,<JobName2>]
