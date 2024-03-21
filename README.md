@@ -68,3 +68,7 @@
         - Can use custom or third party actions
         - Steps are executed in order
 
+**Multiple Jobs under same workflow**
+    
+    - This is very important. Every job gets its own runner, it's own virtual machine that's totally isolated from other machines and jobs.
+    
