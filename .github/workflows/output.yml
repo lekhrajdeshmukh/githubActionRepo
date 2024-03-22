@@ -1,0 +1,8 @@
+name: Output information
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Access github environment variable
+        run: echo "${{ toJson(github) }}"
