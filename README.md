@@ -21,6 +21,7 @@
 
 
 **What is branches in git**
+
     -  Branches are like a container which contains commits
     - feature branch is branch where you can implement feature specific commit without impacting the main branch.
     - You can merge the feature branch changes to main branch using below command:
@@ -54,6 +55,7 @@
         - Above command will merge all the changes of feature1 to feature2
 
 **GitHub Actions - Key Elements**
+
     -`Workflows:`
         - Attached to a github repository
         - Contains one or more Jobs
