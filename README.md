@@ -29,6 +29,7 @@
         - After that execute below command:
             - git merge <branchName>
             - e.g. git merge main
+            
     **-Naming convetion for branch**
         - It is common practice to use all the alphabets in lowercase
         - If there are multiple words then it's very common to separate multiple words with slashes("/")
